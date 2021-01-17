@@ -5,6 +5,7 @@
 
 require("@rails/ujs").start()
 require("@rails/activestorage").start()
+require("turbolinks").start()
 require("channels")
 
 
@@ -14,3 +15,5 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+import './geoloc_browser';

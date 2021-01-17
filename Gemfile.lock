@@ -203,6 +203,9 @@ GEM
     title (0.0.8)
       i18n
       rails (>= 3.1)
+    turbolinks (5.2.1)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
     web-console (4.1.0)
@@ -251,6 +254,7 @@ DEPENDENCIES
   suspenders
   timecop
   title
+  turbolinks (~> 5)
   tzinfo-data
   web-console
   webmock

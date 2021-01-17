@@ -21,6 +21,7 @@ gem "sassc-rails"
 gem "skylight"
 gem "sprockets", "< 4"
 gem "title"
+gem "turbolinks", "~> 5"
 gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :jruby]
 gem "webpacker"
 
